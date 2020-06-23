@@ -1,0 +1,38 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: white;
+}
+
+header {
+  background: rgb(113, 89, 193);
+  border-bottom: 1px solid #333;
+  padding: 30px;
+}
+
+header div a {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+}
+.img img {
+  border-radius: 50%;
+  border: 5px solid black;
+  margin: 35px;
+}
+.img h2 {
+  margin-left: 45px;
+}
+.links a {
+  margin: 25px;
+  text-size: 33px;
+}
+.links a:hover {
+  color: black;
+  transition: color 500ms;
+  text-decoration: none;
+}
